@@ -1,0 +1,7 @@
+google-cloud-vision
+python-dotenv
+opencv-python
+numpy
+Pillow
+scikit-image
+ultralytics
