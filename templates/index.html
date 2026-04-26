@@ -1,61 +1,66 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Drone Inspection Dashboard</title>
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='style.css') }}"
-    />
-  </head>
-  <body>
-    <div class="page">
-      <header class="page-header" style="display: flex; justify-content: space-between; align-items: center;">
-        <div>
-          <h1>Drone Inspection Dashboard</h1>
-          <p>Live monitoring and file management console</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drone Inspection Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="page-header" style="display: flex; justify-content: space-between; align-items: center;">
+      <div>
+        <h1>Drone Inspection Dashboard</h1>
+        <p>Live monitoring and file management console</p>
+      </div>
+      <a href="/demo" class="btn-primary" style="text-decoration: none;">Go to Demo</a>
+    </header>
+
+    <main class="dashboard-grid">
+      <section class="card live-feed-card" style="grid-column: span 2;">
+        <div class="card-header">
+          <h2>Live Camera Feeds</h2>
+          <span class="status-indicator live"></span>
         </div>
-        <a href="/demo" class="btn-primary" style="text-decoration: none;">Go to Demo</a>
-      </header>
+        <div style="display: flex; gap: 1rem; width: 100%;">
+          <div class="video-wrapper" style="flex: 1; min-width: 0;">
+            <h3 style="text-align: center; margin-bottom: 10px; font-size: 1.1rem; color: #e2e8f0;">Front Camera</h3>
+            <img id="liveStream" src="{{ url_for('video_feed') }}" alt="Live front camera stream"
+              style="width: 100%; border-radius: 8px;" />
+          </div>
+          <div class="video-wrapper" style="flex: 1; min-width: 0;">
+            <h3 style="text-align: center; margin-bottom: 10px; font-size: 1.1rem; color: #e2e8f0;">Rear Camera</h3>
+            <img id="rearStream" src="{{ url_for('video_feed_rear') }}" alt="Live rear camera stream"
+              style="width: 100%; border-radius: 8px;" />
+          </div>
+        </div>
+      </section>
 
-      <main class="dashboard-grid">
-        <section class="card live-feed-card">
-          <div class="card-header">
-            <h2>Live Feed</h2>
-          </div>
-          <div class="video-wrapper">
-            <img
-              id="liveStream"
-              src="{{ url_for('video_feed') }}"
-              alt="Live camera stream"
-            />
-          </div>
+      <section class="card damage-frames-card">
+        <div class="card-header">
+          <h2>Frames With Damage</h2>
+        </div>
+        <div class="damage-empty-state">
+          <div class="loading-spinner" aria-hidden="true"></div>
+          <p>No damage found yet</p>
+        </div>
+      </section>
 
-        </section>
-
-        <section class="card damage-frames-card">
-          <div class="card-header">
-            <h2>Frames With Damage</h2>
-          </div>
-          <div class="damage-empty-state">
-            <div class="loading-spinner" aria-hidden="true"></div>
-            <p>No damage found yet</p>
-          </div>
-        </section>
-
-        <section class="card gemma-chat-card">
-          <div class="card-header">
-            <h2>Gemma Assistant</h2>
-          </div>
-          <div class="damage-empty-state">
-            <div class="loading-spinner" aria-hidden="true"></div>
-            <p>Loading ...</p>
-          </div>
-        </section>
-      </main>
-    </div>
+      <section class="card gemma-chat-card">
+        <div class="card-header">
+          <h2>Gemma Assistant</h2>
+        </div>
+        <div class="damage-empty-state">
+          <div class="loading-spinner" aria-hidden="true"></div>
+          <p>Loading ...</p>
+        </div>
+      </section>
+    </main>
+  </div>
 
 
-  </body>
+</body>
+
 </html>

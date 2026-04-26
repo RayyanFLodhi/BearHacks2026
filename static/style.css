@@ -165,7 +165,7 @@ body {
 }
 
 .gemma-chat-card {
-  grid-column: span 2;
+  /* sits naturally in one grid column beside the damage-frames-card */
 }
 
 .gemma-chat-window {

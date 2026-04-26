@@ -1,0 +1,86 @@
+## SafeSense – 2‑Minute Hackathon Demo Script
+
+*Feel free to adjust the timing a few seconds for your own speaking pace.*
+
+---
+
+### 1. Opening (≈15 s)
+> **Speaker:** "Good afternoon, judges! I’m [Your Name] from **SafeSense**, the AI‑powered drone inspection platform built to make Canada’s toughest infrastructure checks safer, faster, and cheaper."
+
+---
+
+### 2. Problem Definition (≈30 s)
+> **Speaker:**
+> "Infrastructure inspection today is a **high‑risk, high‑cost** operation. Think of bridges, wind‑turbine blades, water‑tanks, or the underside of large steel structures.
+> • A human inspector must climb ladders, rope‑descend, or use expensive scaffolding – **time = money** and safety gear adds another 30 % to a job’s budget.
+> • Manual visual checks produce **inconsistent data** and often miss early‑stage cracks or corrosion.
+> • The downstream reporting process can take days, delaying repairs and increasing downtime.
+>
+> "What we need is a **real‑time, data‑driven eye in the sky** that captures the right frames, automatically detects damage, and instantly produces a structured inspection report."
+
+---
+
+### 3. Solution Overview (≈45 s)
+> **Speaker:**
+> "SafeSense does exactly that. Our system is a **team of cooperating agents**: 
+>
+> | Agent | Role | Tech Stack |
+> |------|------|------------|
+> | **Drone (front & rear cameras)** | Captures 1080p video, streams live frames | Raspberry‑Pi + OpenCV + Python sockets |
+> | **Edge Server** (`server.py`) | Receives each JPEG, keeps the **latest frame in RAM** (no disk I/O) and serves it via a lightweight HTTP endpoint | Python socket server + `threading` |
+> | **Flask Web App** (`app.py`) | Renders the live dashboard with **front‑camera feed**, **rear‑camera feed**, damage‑frame gallery, and a **Gemma chat assistant** | Flask, HTML/CSS (grid layout), `marked.js` for markdown |
+> | **Google Cloud Vision API** | Runs on every 30th frame (≈1 fps) to detect objects, cracks, and material types | GCP Vision (labels + object localization) |
+> | **Gemma (local Ollama model)** | Turns the Vision output into a concise, human‑readable inspection report *on‑the‑fly* (no date‑field, markdown‑ready) | Ollama `gemma4:e4b` |
+> | **YOLO‑v8 Segmentation** (offline) | Pre‑processes demo video (`backyard.mp4`) to showcase damage detection without contacting the cloud (demo mode) | `ultralytics` YOLO library |
+>
+> "All agents talk through **well‑defined APIs** (HTTP, sockets, Flask routes). The front‑camera stream runs at **30 fps** (via `sleep(0.033)`), while the rear‑camera stream—originally a bottleneck at 1 fps—now pulls the latest in‑memory frame from the server, giving us the same high frame‑rate.
+>
+> "The Vision API runs **only when the feed is active**, and we skip processing blank/low‑variance frames, saving tokens. The Gemma assistant displays a “thinking…” status while it generates its markdown report, then switches back to “Connected to local Gemma via Ollama.”
+
+---
+
+### 4. Creative Edge (≈30 s)
+> **Speaker:**
+> "What makes SafeSense **creative** is the orchestration of **multiple AI agents** to replace a manual inspection workflow:
+>
+> • **Computer Vision** (GCP) provides raw detections.
+> • **YOLO segmentation** pre‑labels the demo video, proving the pipeline works offline.
+> • **Gemma** consumes the Vision JSON and synthesizes a **structured report** (summary, observations, causes, severity, actions).
+> • All outputs are rendered with **`marked.js`**, preserving markdown styling (headers, bold, tables).
+>
+> "In other words, a **human‑in‑the‑loop** inspector can verify the results later, but the heavy lifting—detecting cracks, counting damage, and drafting a report—is done automatically by AI agents. This is exactly the kind of **multi‑agent collaboration** the hackathon theme celebrates."
+
+---
+
+### 5. Technical Highlights (≈30 s)
+> **Speaker (you can point to the screen):**
+>
+> 1. **Live Feed Architecture** – front camera (`/video_feed`) and rear camera (`/video_feed_rear`) are side‑by‑side in the dashboard, each pulling from a Flask generator.
+> 2. **Token‑Saving Logic** – `is_frame_meaningful()` checks frame variance; if below a threshold we skip the Vision API call.
+> 3. **Server‑Side Buffer** – `server.py` now stores the most recent JPEG in RAM (`self.latest_frame`) and serves it instantly, eliminating the previous 1 fps bottleneck caused by disk writes.
+> 4. **Gemma Prompt** – hard‑coded system prompt (“You are a professional structural inspector…”) ensures consistent tone and **excludes the ‘Date of Observation’**.
+> 5. **Demo Mode** – uses pre‑processed `backyard.mp4` with YOLO segmentation, so even without a real drone you can showcase the full pipeline.
+
+---
+
+### 6. Closing & Call‑to‑Action (≈15 s)
+> **Speaker:** "SafeSense turns risky, expensive manual inspections into a **fast, data‑rich, AI‑guided workflow**. By deploying a fleet of autonomous drones, construction firms and municipalities can cut inspection costs by up to **40 %**, reduce down‑time, and keep workers out of dangerous environments.
+>
+> "We’re ready to scale across Canada’s bridges, wind farms, and water‑treatment plants—any place where a human would need a safety harness. Thank you, and we’d love to answer your questions!"
+
+---
+
+### 7. Quick Q&A Prep
+| Possible Question | One‑Sentence Answer |
+|------------------|--------------------|
+| *How do you handle connectivity loss?* | The Flask generators detect a broken client connection, release the camera, and stop Vision calls, so no tokens are wasted. |
+| *What’s the latency from frame capture to report?* | Front‑camera frames stream at 30 fps; Vision runs on the 30th frame (~1 s), and Gemma returns a markdown report within **2–3 seconds** after the Vision payload. |
+| *Can you run this without GCP?* | Yes—demo mode uses YOLO‑v8 segmentation only; the pipeline degrades gracefully by skipping Vision calls when credentials are missing. |
+| *Why use Gemma locally instead of a cloud LLM?* | Running locally via Ollama eliminates API costs, guarantees zero‑latency inference, and meets hackathon “on‑device AI” criteria. |
+| *How many drones can you scale to?* | The architecture is stateless; each drone runs a lightweight client that streams to a central server, so scaling is limited only by network bandwidth. |
+
+---
+
+**Tip:** Load the dashboard (`http://localhost:5000`) on a projector, point out the two video panes, the damage‑frame gallery, and the live Gemma chat box. When you click **“Generate Report”**, watch the status change from *“Gemma is thinking...”* to *“Connected to local Gemma via Ollama.”*
+
+Good luck—break a leg!

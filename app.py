@@ -9,6 +9,7 @@ import cv2
 from flask import Flask, Response, jsonify, redirect, render_template, request, send_from_directory, url_for
 from ollama import chat
 import time
+import numpy as np
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
@@ -195,6 +196,65 @@ def detection_label(filename: str) -> str:
             return prefix.replace("-", " ").title()
     return "Inspection Result"
 
+def _stream_rear_camera():
+    img_dir = BASE_DIR / "Ai" / "images"
+    print(f"[REAR CAMERA] Looking for images in: {img_dir}")
+
+    while True:
+        files = []
+
+        if img_dir.exists():
+            files = sorted(
+                list(img_dir.glob("*.jpg")) + list(img_dir.glob("*.jpeg")) + list(img_dir.glob("*.png")),
+                key=lambda p: p.stat().st_mtime,
+                reverse=True
+            )
+
+        if files:
+            latest_file = files[0]
+            frame = cv2.imread(str(latest_file))
+
+            if frame is not None:
+                # Camera is mounted upside-down — rotate 180°
+                frame = cv2.rotate(frame, cv2.ROTATE_180)
+
+            if frame is None:
+                print(f"[REAR CAMERA] Could not read: {latest_file}")
+                time.sleep(0.1)
+                continue
+
+            cv2.putText(
+                frame,
+                f"Rear Camera: {latest_file.name}",
+                (20, 40),
+                cv2.FONT_HERSHEY_SIMPLEX,
+                0.8,
+                (0, 255, 0),
+                2
+            )
+
+        else:
+            frame = np.zeros((480, 640, 3), dtype=np.uint8)
+            cv2.putText(
+                frame,
+                "Waiting for rear camera frames...",
+                (80, 240),
+                cv2.FONT_HERSHEY_SIMPLEX,
+                0.8,
+                (255, 255, 255),
+                2
+            )
+
+        ok, buffer = cv2.imencode(".jpg", frame)
+
+        if ok:
+            yield (
+                b"--frame\r\n"
+                b"Content-Type: image/jpeg\r\n\r\n" + buffer.tobytes() + b"\r\n"
+            )
+
+        time.sleep(0.15)
+        
 @app.route("/")
 def index():
     ensure_directories()
@@ -221,6 +281,10 @@ def video_feed():
 @app.route("/video_feed_demo")
 def video_feed_demo():
     return Response(_stream_frames(is_demo=True), mimetype="multipart/x-mixed-replace; boundary=frame")
+
+@app.route("/video_feed_rear")
+def video_feed_rear():
+    return Response(_stream_rear_camera(), mimetype="multipart/x-mixed-replace; boundary=frame")
 
 @app.route("/capture", methods=["POST"])
 def capture():

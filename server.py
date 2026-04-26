@@ -13,8 +13,7 @@ IMG_MSG = "!IMG"
 CMD_MSG = "!CMD"
 
 # For testing, save every frame. Change back to 10 later.
-SAVE_EVERY_N_FRAMES = 30
-
+SAVE_EVERY_N_FRAMES = 1
 
 class Server:
     def __init__(self):
