@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drone Inspection Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='demo_style.css') }}"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <header class="page-header" style="display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <h1>Drone Inspection Dashboard</h1>
+          <p>Live monitoring and file management console</p>
+        </div>
+        <a href="/" class="btn-primary" style="text-decoration: none;">Go to Live</a>
+      </header>
+
+      <main class="dashboard-grid">
+        <section class="card live-feed-card">
+          <div class="card-header">
+            <h2>Live Feed</h2>
+          </div>
+          <div class="video-wrapper">
+            <img
+              id="liveStream"
+              src="{{ url_for('video_feed_demo') }}"
+              alt="Live camera stream"
+            />
+          </div>
+
+        </section>
+
+        <section class="card damage-frames-card">
+          <div class="card-header">
+            <h2>Frames With Damage</h2>
+          </div>
+          <div class="damage-frames-grid" style="display: flex; flex-direction: column; gap: 1rem; overflow-y: auto; max-height: 480px; padding: 0.5rem;">
+            <img src="{{ url_for('static', filename='results/frame_00_10_annotated.png') }}" style="width: 100%; border-radius: 8px; border: 1px solid var(--border);" alt="Frame 10 Damage">
+            <img src="{{ url_for('static', filename='results/frame_00_12_annotated.png') }}" style="width: 100%; border-radius: 8px; border: 1px solid var(--border);" alt="Frame 12 Damage">
+            <img src="{{ url_for('static', filename='results/frame_00_14_annotated.png') }}" style="width: 100%; border-radius: 8px; border: 1px solid var(--border);" alt="Frame 14 Damage">
+          </div>
+        </section>
+
+        <section class="card gemma-chat-card">
+          <div class="card-header">
+            <h2>Gemma Assistant</h2>
+          </div>
+          <div id="gemmaChatWindow" class="gemma-chat-window">
+            <div class="chat-message assistant-message" id="initialMessage">
+              Generating inspection report...
+            </div>
+          </div>
+          <form id="gemmaChatForm" class="gemma-chat-input-row" onsubmit="return false;">
+            <input
+              type="text"
+              id="gemmaInput"
+              placeholder="Ask about recording, results, or next steps..."
+            />
+            <button type="submit" id="gemmaSendButton" class="btn-primary">Send</button>
+          </form>
+          <div id="gemmaStatus" class="chat-footnote">Connected to local Gemma via Ollama.</div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+
+      const gemmaChatForm = document.getElementById("gemmaChatForm");
+      const gemmaInput = document.getElementById("gemmaInput");
+      const gemmaSendButton = document.getElementById("gemmaSendButton");
+      const gemmaStatus = document.getElementById("gemmaStatus");
+      const gemmaChatWindow = document.getElementById("gemmaChatWindow");
+
+      function appendMessage(role, content) {
+        const div = document.createElement("div");
+        div.className = `chat-message ${
+          role === "user" ? "user-message" : "assistant-message"
+        }`;
+        div.innerHTML = marked.parse(content);
+        gemmaChatWindow.appendChild(div);
+        gemmaChatWindow.scrollTop = gemmaChatWindow.scrollHeight;
+      }
+
+      document.addEventListener("DOMContentLoaded", async () => {
+        try {
+          const gemmaStatus = document.getElementById("gemmaStatus");
+          if (gemmaStatus) gemmaStatus.textContent = "Gemma is thinking...";
+
+          const response = await fetch("/chat_gemma", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ message: "Generate a report to the reader about what you observed" }),
+          });
+          const payload = await response.json();
+          const initialMsg = document.getElementById("initialMessage");
+          if (initialMsg) initialMsg.remove();
+          
+          if (response.ok && payload.status === "ok") {
+            appendMessage("assistant", payload.reply);
+          } else {
+            appendMessage("assistant", "Failed to generate report.");
+          }
+        } catch (e) {
+          const initialMsg = document.getElementById("initialMessage");
+          if (initialMsg) initialMsg.remove();
+          appendMessage("assistant", "Error connecting to Gemma.");
+        } finally {
+          const gemmaStatus = document.getElementById("gemmaStatus");
+          if (gemmaStatus) gemmaStatus.textContent = "Connected to local Gemma via Ollama.";
+        }
+      });
+
+
+
+      gemmaChatForm.addEventListener("submit", async () => {
+        const message = gemmaInput.value.trim();
+        if (!message) {
+          return;
+        }
+
+        appendMessage("user", message);
+        gemmaInput.value = "";
+        gemmaSendButton.disabled = true;
+        gemmaStatus.textContent = "Gemma is thinking...";
+
+        try {
+          const response = await fetch("/chat_gemma", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ message }),
+          });
+
+          const payload = await response.json();
+          if (!response.ok || payload.status !== "ok") {
+            const errorMessage = payload.error || "Failed to get Gemma response.";
+            appendMessage("assistant", `Error: ${errorMessage}`);
+            gemmaStatus.textContent = "Gemma request failed.";
+            return;
+          }
+
+          appendMessage("assistant", payload.reply);
+          gemmaStatus.textContent = "Connected to local Gemma via Ollama.";
+        } catch (error) {
+          appendMessage("assistant", "Error: Could not reach backend Gemma endpoint.");
+          gemmaStatus.textContent = "Backend connection failed.";
+        } finally {
+          gemmaSendButton.disabled = false;
+          gemmaInput.focus();
+        }
+      });
+    </script>
+  </body>
+</html>

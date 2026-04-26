@@ -1,0 +1,9 @@
+Video: DroneImages\backyard.mp4
+Frame interval (s): 2
+Total sampled frames: 8
+Total damage count: 511
+Total damage area (px): 1647997
+Annotated frames folder: outputs\segmentation_backyard\frames
+Masks folder: outputs\segmentation_backyard\masks
+
+Use frame images in the website gallery. Parse results.json for metrics/cards.

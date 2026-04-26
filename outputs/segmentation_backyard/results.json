@@ -1,0 +1,5726 @@
+{
+  "video_path": "DroneImages\\backyard.mp4",
+  "frame_interval_seconds": 2,
+  "total_sampled_frames": 8,
+  "total_damage_count": 511,
+  "total_damage_area_px": 1647997,
+  "frames": [
+    {
+      "timestamp_seconds": 0.0,
+      "frame_index": 0,
+      "damage_count": 65,
+      "damage_area_px": 155698,
+      "detections": [
+        {
+          "type": "hole",
+          "bbox": [
+            1812,
+            1001,
+            35,
+            79
+          ],
+          "length_px": 79,
+          "area_px": 1233
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1454,
+            979,
+            49,
+            19
+          ],
+          "length_px": 49,
+          "area_px": 262
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            546,
+            979,
+            264,
+            11
+          ],
+          "length_px": 264,
+          "area_px": 1444
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            286,
+            977,
+            252,
+            16
+          ],
+          "length_px": 252,
+          "area_px": 2002
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            874,
+            974,
+            270,
+            15
+          ],
+          "length_px": 270,
+          "area_px": 1431
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1526,
+            970,
+            394,
+            23
+          ],
+          "length_px": 394,
+          "area_px": 2730
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            952,
+            876,
+            234,
+            9
+          ],
+          "length_px": 234,
+          "area_px": 1329
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            397,
+            874,
+            535,
+            17
+          ],
+          "length_px": 535,
+          "area_px": 4179
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1562,
+            869,
+            257,
+            89
+          ],
+          "length_px": 257,
+          "area_px": 3476
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1273,
+            868,
+            283,
+            212
+          ],
+          "length_px": 283,
+          "area_px": 16514
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            851,
+            383,
+            229
+          ],
+          "length_px": 383,
+          "area_px": 11004
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1813,
+            783,
+            107,
+            104
+          ],
+          "length_px": 107,
+          "area_px": 2183
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            301,
+            783,
+            139,
+            60
+          ],
+          "length_px": 139,
+          "area_px": 1847
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            553,
+            780,
+            64,
+            7
+          ],
+          "length_px": 64,
+          "area_px": 345
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            627,
+            779,
+            76,
+            10
+          ],
+          "length_px": 76,
+          "area_px": 479
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            777,
+            291,
+            19
+          ],
+          "length_px": 291,
+          "area_px": 2198
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            714,
+            775,
+            361,
+            13
+          ],
+          "length_px": 361,
+          "area_px": 1918
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1085,
+            773,
+            89,
+            7
+          ],
+          "length_px": 89,
+          "area_px": 426
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1288,
+            746,
+            632,
+            124
+          ],
+          "length_px": 632,
+          "area_px": 25920
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            44,
+            709,
+            13,
+            53
+          ],
+          "length_px": 53,
+          "area_px": 432
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            686,
+            371,
+            32
+          ],
+          "length_px": 371,
+          "area_px": 3000
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            380,
+            678,
+            528,
+            16
+          ],
+          "length_px": 528,
+          "area_px": 2902
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1205,
+            672,
+            107,
+            6
+          ],
+          "length_px": 107,
+          "area_px": 382
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1034,
+            672,
+            139,
+            10
+          ],
+          "length_px": 139,
+          "area_px": 557
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1861,
+            658,
+            59,
+            13
+          ],
+          "length_px": 59,
+          "area_px": 520
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1311,
+            649,
+            35,
+            71
+          ],
+          "length_px": 71,
+          "area_px": 1280
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            582,
+            773,
+            43
+          ],
+          "length_px": 773,
+          "area_px": 5817
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            787,
+            580,
+            156,
+            10
+          ],
+          "length_px": 156,
+          "area_px": 777
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1054,
+            572,
+            250,
+            10
+          ],
+          "length_px": 250,
+          "area_px": 1344
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            502,
+            147,
+            88
+          ],
+          "length_px": 147,
+          "area_px": 2096
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            162,
+            496,
+            239,
+            13
+          ],
+          "length_px": 239,
+          "area_px": 1380
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            417,
+            489,
+            215,
+            14
+          ],
+          "length_px": 215,
+          "area_px": 980
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            678,
+            483,
+            158,
+            11
+          ],
+          "length_px": 158,
+          "area_px": 692
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            952,
+            480,
+            59,
+            8
+          ],
+          "length_px": 59,
+          "area_px": 269
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1219,
+            472,
+            73,
+            11
+          ],
+          "length_px": 73,
+          "area_px": 539
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1140,
+            472,
+            64,
+            9
+          ],
+          "length_px": 64,
+          "area_px": 289
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            412,
+            50,
+            13
+          ],
+          "length_px": 50,
+          "area_px": 370
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            433,
+            395,
+            121,
+            12
+          ],
+          "length_px": 121,
+          "area_px": 532
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            562,
+            390,
+            213,
+            14
+          ],
+          "length_px": 213,
+          "area_px": 1069
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            881,
+            383,
+            136,
+            9
+          ],
+          "length_px": 136,
+          "area_px": 596
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1085,
+            373,
+            140,
+            14
+          ],
+          "length_px": 140,
+          "area_px": 643
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            317,
+            264,
+            168
+          ],
+          "length_px": 264,
+          "area_px": 4639
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            161,
+            306,
+            241,
+            21
+          ],
+          "length_px": 241,
+          "area_px": 2094
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            411,
+            300,
+            208,
+            17
+          ],
+          "length_px": 208,
+          "area_px": 1319
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            670,
+            290,
+            202,
+            15
+          ],
+          "length_px": 202,
+          "area_px": 1028
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            931,
+            280,
+            255,
+            14
+          ],
+          "length_px": 255,
+          "area_px": 1407
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1206,
+            271,
+            185,
+            13
+          ],
+          "length_px": 185,
+          "area_px": 902
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            300,
+            211,
+            221,
+            17
+          ],
+          "length_px": 221,
+          "area_px": 1274
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            532,
+            205,
+            164,
+            17
+          ],
+          "length_px": 164,
+          "area_px": 1065
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1363,
+            193,
+            557,
+            141
+          ],
+          "length_px": 557,
+          "area_px": 7430
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            949,
+            189,
+            86,
+            12
+          ],
+          "length_px": 86,
+          "area_px": 371
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            788,
+            183,
+            152,
+            24
+          ],
+          "length_px": 152,
+          "area_px": 966
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1165,
+            178,
+            145,
+            13
+          ],
+          "length_px": 145,
+          "area_px": 704
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1324,
+            168,
+            202,
+            14
+          ],
+          "length_px": 202,
+          "area_px": 1157
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1605,
+            145,
+            278,
+            28
+          ],
+          "length_px": 278,
+          "area_px": 1859
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            128,
+            369,
+            120
+          ],
+          "length_px": 369,
+          "area_px": 6031
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            380,
+            118,
+            241,
+            18
+          ],
+          "length_px": 241,
+          "area_px": 1718
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            631,
+            107,
+            229,
+            17
+          ],
+          "length_px": 229,
+          "area_px": 1262
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            876,
+            88,
+            268,
+            23
+          ],
+          "length_px": 268,
+          "area_px": 1452
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1159,
+            77,
+            265,
+            20
+          ],
+          "length_px": 265,
+          "area_px": 1610
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1439,
+            48,
+            481,
+            46
+          ],
+          "length_px": 481,
+          "area_px": 4181
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            301,
+            40,
+            126,
+            10
+          ],
+          "length_px": 126,
+          "area_px": 547
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            845,
+            11,
+            122,
+            19
+          ],
+          "length_px": 122,
+          "area_px": 558
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1087,
+            0,
+            107,
+            15
+          ],
+          "length_px": 107,
+          "area_px": 726
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            0,
+            211,
+            82
+          ],
+          "length_px": 211,
+          "area_px": 4012
+        }
+      ],
+      "outputs": {
+        "annotated_frame": "outputs\\segmentation_backyard\\frames\\frame_00_00_annotated.png",
+        "hole_mask": "outputs\\segmentation_backyard\\masks\\frame_00_00_hole_mask.png"
+      }
+    },
+    {
+      "timestamp_seconds": 2.0,
+      "frame_index": 60,
+      "damage_count": 68,
+      "damage_area_px": 168812,
+      "detections": [
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            1026,
+            52,
+            54
+          ],
+          "length_px": 54,
+          "area_px": 1407
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1812,
+            1001,
+            36,
+            79
+          ],
+          "length_px": 79,
+          "area_px": 1248
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            547,
+            979,
+            300,
+            10
+          ],
+          "length_px": 300,
+          "area_px": 1520
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            286,
+            977,
+            251,
+            16
+          ],
+          "length_px": 251,
+          "area_px": 2008
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            876,
+            975,
+            251,
+            14
+          ],
+          "length_px": 251,
+          "area_px": 1385
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1454,
+            965,
+            466,
+            32
+          ],
+          "length_px": 466,
+          "area_px": 3218
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1648,
+            889,
+            20,
+            62
+          ],
+          "length_px": 62,
+          "area_px": 512
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            878,
+            383,
+            177
+          ],
+          "length_px": 383,
+          "area_px": 10288
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            952,
+            876,
+            235,
+            9
+          ],
+          "length_px": 235,
+          "area_px": 1217
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            397,
+            874,
+            535,
+            17
+          ],
+          "length_px": 535,
+          "area_px": 4172
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1561,
+            868,
+            258,
+            38
+          ],
+          "length_px": 258,
+          "area_px": 2875
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1272,
+            868,
+            243,
+            212
+          ],
+          "length_px": 243,
+          "area_px": 15818
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            122,
+            803,
+            19,
+            40
+          ],
+          "length_px": 40,
+          "area_px": 319
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1813,
+            784,
+            107,
+            103
+          ],
+          "length_px": 107,
+          "area_px": 2186
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            302,
+            783,
+            135,
+            37
+          ],
+          "length_px": 135,
+          "area_px": 1708
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            626,
+            779,
+            76,
+            10
+          ],
+          "length_px": 76,
+          "area_px": 457
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            553,
+            779,
+            66,
+            8
+          ],
+          "length_px": 66,
+          "area_px": 343
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            776,
+            292,
+            21
+          ],
+          "length_px": 292,
+          "area_px": 2130
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            741,
+            775,
+            335,
+            12
+          ],
+          "length_px": 335,
+          "area_px": 1786
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1082,
+            773,
+            93,
+            7
+          ],
+          "length_px": 93,
+          "area_px": 449
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            43,
+            709,
+            15,
+            51
+          ],
+          "length_px": 51,
+          "area_px": 437
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            686,
+            371,
+            30
+          ],
+          "length_px": 371,
+          "area_px": 2891
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            383,
+            678,
+            521,
+            16
+          ],
+          "length_px": 521,
+          "area_px": 2862
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1036,
+            673,
+            82,
+            9
+          ],
+          "length_px": 82,
+          "area_px": 353
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1208,
+            672,
+            103,
+            7
+          ],
+          "length_px": 103,
+          "area_px": 373
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1861,
+            657,
+            59,
+            14
+          ],
+          "length_px": 59,
+          "area_px": 486
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1287,
+            647,
+            633,
+            223
+          ],
+          "length_px": 633,
+          "area_px": 40177
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            582,
+            774,
+            43
+          ],
+          "length_px": 774,
+          "area_px": 5773
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            786,
+            579,
+            189,
+            10
+          ],
+          "length_px": 189,
+          "area_px": 872
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1055,
+            572,
+            249,
+            10
+          ],
+          "length_px": 249,
+          "area_px": 1325
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            502,
+            148,
+            86
+          ],
+          "length_px": 148,
+          "area_px": 2073
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            162,
+            496,
+            241,
+            14
+          ],
+          "length_px": 241,
+          "area_px": 1380
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            416,
+            489,
+            216,
+            13
+          ],
+          "length_px": 216,
+          "area_px": 933
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            677,
+            482,
+            152,
+            12
+          ],
+          "length_px": 152,
+          "area_px": 686
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            949,
+            480,
+            62,
+            8
+          ],
+          "length_px": 62,
+          "area_px": 282
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1220,
+            472,
+            72,
+            11
+          ],
+          "length_px": 72,
+          "area_px": 529
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1142,
+            471,
+            63,
+            11
+          ],
+          "length_px": 63,
+          "area_px": 289
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            412,
+            47,
+            12
+          ],
+          "length_px": 47,
+          "area_px": 309
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            94,
+            406,
+            189,
+            78
+          ],
+          "length_px": 189,
+          "area_px": 1497
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            317,
+            403,
+            110,
+            7
+          ],
+          "length_px": 110,
+          "area_px": 380
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            435,
+            395,
+            119,
+            12
+          ],
+          "length_px": 119,
+          "area_px": 558
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            557,
+            386,
+            212,
+            18
+          ],
+          "length_px": 212,
+          "area_px": 1041
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            822,
+            384,
+            146,
+            9
+          ],
+          "length_px": 146,
+          "area_px": 670
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1085,
+            374,
+            150,
+            12
+          ],
+          "length_px": 150,
+          "area_px": 679
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            316,
+            151,
+            103
+          ],
+          "length_px": 151,
+          "area_px": 3151
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            161,
+            306,
+            240,
+            21
+          ],
+          "length_px": 240,
+          "area_px": 2044
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            410,
+            300,
+            224,
+            17
+          ],
+          "length_px": 224,
+          "area_px": 1320
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            668,
+            290,
+            205,
+            15
+          ],
+          "length_px": 205,
+          "area_px": 1022
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            958,
+            280,
+            230,
+            14
+          ],
+          "length_px": 230,
+          "area_px": 1418
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1206,
+            272,
+            170,
+            12
+          ],
+          "length_px": 170,
+          "area_px": 891
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            294,
+            212,
+            227,
+            28
+          ],
+          "length_px": 227,
+          "area_px": 1452
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            531,
+            205,
+            165,
+            18
+          ],
+          "length_px": 165,
+          "area_px": 1046
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1363,
+            193,
+            557,
+            150
+          ],
+          "length_px": 557,
+          "area_px": 7617
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            789,
+            183,
+            246,
+            25
+          ],
+          "length_px": 246,
+          "area_px": 1434
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1163,
+            178,
+            146,
+            13
+          ],
+          "length_px": 146,
+          "area_px": 730
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1324,
+            168,
+            201,
+            15
+          ],
+          "length_px": 201,
+          "area_px": 1182
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1604,
+            145,
+            277,
+            28
+          ],
+          "length_px": 277,
+          "area_px": 1853
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            128,
+            368,
+            116
+          ],
+          "length_px": 368,
+          "area_px": 5768
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            380,
+            117,
+            243,
+            19
+          ],
+          "length_px": 243,
+          "area_px": 1767
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            631,
+            108,
+            229,
+            17
+          ],
+          "length_px": 229,
+          "area_px": 1222
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            875,
+            88,
+            270,
+            23
+          ],
+          "length_px": 270,
+          "area_px": 1475
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1157,
+            77,
+            267,
+            21
+          ],
+          "length_px": 267,
+          "area_px": 1667
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1439,
+            48,
+            481,
+            44
+          ],
+          "length_px": 481,
+          "area_px": 4221
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            313,
+            40,
+            114,
+            10
+          ],
+          "length_px": 114,
+          "area_px": 515
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            834,
+            11,
+            134,
+            16
+          ],
+          "length_px": 134,
+          "area_px": 587
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1141,
+            0,
+            56,
+            16
+          ],
+          "length_px": 56,
+          "area_px": 443
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1056,
+            0,
+            56,
+            9
+          ],
+          "length_px": 56,
+          "area_px": 321
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            0,
+            230,
+            82
+          ],
+          "length_px": 230,
+          "area_px": 3765
+        }
+      ],
+      "outputs": {
+        "annotated_frame": "outputs\\segmentation_backyard\\frames\\frame_00_02_annotated.png",
+        "hole_mask": "outputs\\segmentation_backyard\\masks\\frame_00_02_hole_mask.png"
+      }
+    },
+    {
+      "timestamp_seconds": 4.0,
+      "frame_index": 120,
+      "damage_count": 68,
+      "damage_area_px": 168294,
+      "detections": [
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            1046,
+            51,
+            34
+          ],
+          "length_px": 51,
+          "area_px": 1231
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1812,
+            999,
+            35,
+            81
+          ],
+          "length_px": 81,
+          "area_px": 1250
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            875,
+            979,
+            206,
+            10
+          ],
+          "length_px": 206,
+          "area_px": 1211
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            547,
+            979,
+            300,
+            10
+          ],
+          "length_px": 300,
+          "area_px": 1497
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            288,
+            977,
+            252,
+            16
+          ],
+          "length_px": 252,
+          "area_px": 2028
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1513,
+            975,
+            141,
+            15
+          ],
+          "length_px": 141,
+          "area_px": 880
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1659,
+            957,
+            261,
+            37
+          ],
+          "length_px": 261,
+          "area_px": 2125
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            953,
+            877,
+            226,
+            8
+          ],
+          "length_px": 226,
+          "area_px": 1200
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            877,
+            383,
+            178
+          ],
+          "length_px": 383,
+          "area_px": 9612
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            397,
+            874,
+            535,
+            17
+          ],
+          "length_px": 535,
+          "area_px": 4223
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1273,
+            868,
+            283,
+            212
+          ],
+          "length_px": 283,
+          "area_px": 15776
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1562,
+            867,
+            256,
+            83
+          ],
+          "length_px": 256,
+          "area_px": 3341
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1814,
+            784,
+            106,
+            103
+          ],
+          "length_px": 106,
+          "area_px": 2174
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            303,
+            783,
+            138,
+            58
+          ],
+          "length_px": 138,
+          "area_px": 1846
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            627,
+            779,
+            77,
+            10
+          ],
+          "length_px": 77,
+          "area_px": 481
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            554,
+            779,
+            63,
+            8
+          ],
+          "length_px": 63,
+          "area_px": 343
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            777,
+            291,
+            20
+          ],
+          "length_px": 291,
+          "area_px": 2137
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            715,
+            773,
+            459,
+            14
+          ],
+          "length_px": 459,
+          "area_px": 2344
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            44,
+            710,
+            14,
+            44
+          ],
+          "length_px": 44,
+          "area_px": 395
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            686,
+            372,
+            30
+          ],
+          "length_px": 372,
+          "area_px": 2903
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            383,
+            678,
+            524,
+            16
+          ],
+          "length_px": 524,
+          "area_px": 2905
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1207,
+            672,
+            106,
+            8
+          ],
+          "length_px": 106,
+          "area_px": 390
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1031,
+            672,
+            154,
+            10
+          ],
+          "length_px": 154,
+          "area_px": 618
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1859,
+            658,
+            61,
+            15
+          ],
+          "length_px": 61,
+          "area_px": 528
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1289,
+            646,
+            631,
+            225
+          ],
+          "length_px": 631,
+          "area_px": 40716
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            593,
+            265,
+            31
+          ],
+          "length_px": 265,
+          "area_px": 2675
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            272,
+            582,
+            501,
+            29
+          ],
+          "length_px": 501,
+          "area_px": 3181
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            787,
+            580,
+            188,
+            9
+          ],
+          "length_px": 188,
+          "area_px": 881
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1055,
+            572,
+            249,
+            10
+          ],
+          "length_px": 249,
+          "area_px": 1335
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            502,
+            147,
+            86
+          ],
+          "length_px": 147,
+          "area_px": 1964
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            160,
+            496,
+            242,
+            14
+          ],
+          "length_px": 242,
+          "area_px": 1443
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            416,
+            489,
+            227,
+            12
+          ],
+          "length_px": 227,
+          "area_px": 1035
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            677,
+            485,
+            64,
+            9
+          ],
+          "length_px": 64,
+          "area_px": 321
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            747,
+            483,
+            97,
+            9
+          ],
+          "length_px": 97,
+          "area_px": 424
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            949,
+            481,
+            61,
+            8
+          ],
+          "length_px": 61,
+          "area_px": 284
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1141,
+            472,
+            63,
+            10
+          ],
+          "length_px": 63,
+          "area_px": 311
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1219,
+            471,
+            76,
+            12
+          ],
+          "length_px": 76,
+          "area_px": 581
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            411,
+            49,
+            12
+          ],
+          "length_px": 49,
+          "area_px": 346
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            319,
+            402,
+            110,
+            8
+          ],
+          "length_px": 110,
+          "area_px": 380
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            439,
+            394,
+            114,
+            13
+          ],
+          "length_px": 114,
+          "area_px": 544
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            557,
+            386,
+            207,
+            18
+          ],
+          "length_px": 207,
+          "area_px": 1031
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            880,
+            383,
+            137,
+            9
+          ],
+          "length_px": 137,
+          "area_px": 599
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1085,
+            373,
+            151,
+            14
+          ],
+          "length_px": 151,
+          "area_px": 707
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            316,
+            286,
+            168
+          ],
+          "length_px": 286,
+          "area_px": 4623
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            160,
+            302,
+            244,
+            25
+          ],
+          "length_px": 244,
+          "area_px": 2127
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            411,
+            301,
+            209,
+            16
+          ],
+          "length_px": 209,
+          "area_px": 1258
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            716,
+            290,
+            158,
+            13
+          ],
+          "length_px": 158,
+          "area_px": 797
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            931,
+            285,
+            94,
+            9
+          ],
+          "length_px": 94,
+          "area_px": 421
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1034,
+            280,
+            153,
+            11
+          ],
+          "length_px": 153,
+          "area_px": 1012
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1205,
+            271,
+            187,
+            13
+          ],
+          "length_px": 187,
+          "area_px": 901
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            235,
+            30,
+            17
+          ],
+          "length_px": 30,
+          "area_px": 275
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            302,
+            211,
+            220,
+            29
+          ],
+          "length_px": 220,
+          "area_px": 1462
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            529,
+            202,
+            168,
+            20
+          ],
+          "length_px": 168,
+          "area_px": 1108
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1363,
+            193,
+            557,
+            141
+          ],
+          "length_px": 557,
+          "area_px": 7412
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            789,
+            183,
+            247,
+            24
+          ],
+          "length_px": 247,
+          "area_px": 1406
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1164,
+            178,
+            146,
+            13
+          ],
+          "length_px": 146,
+          "area_px": 726
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1326,
+            168,
+            201,
+            15
+          ],
+          "length_px": 201,
+          "area_px": 1149
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1604,
+            145,
+            278,
+            28
+          ],
+          "length_px": 278,
+          "area_px": 1860
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            128,
+            368,
+            117
+          ],
+          "length_px": 368,
+          "area_px": 5675
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            380,
+            117,
+            241,
+            19
+          ],
+          "length_px": 241,
+          "area_px": 1747
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            631,
+            107,
+            229,
+            17
+          ],
+          "length_px": 229,
+          "area_px": 1276
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            876,
+            88,
+            268,
+            23
+          ],
+          "length_px": 268,
+          "area_px": 1392
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1160,
+            78,
+            240,
+            19
+          ],
+          "length_px": 240,
+          "area_px": 1513
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1440,
+            49,
+            480,
+            45
+          ],
+          "length_px": 480,
+          "area_px": 4207
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            311,
+            40,
+            106,
+            11
+          ],
+          "length_px": 106,
+          "area_px": 497
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            849,
+            11,
+            114,
+            20
+          ],
+          "length_px": 114,
+          "area_px": 577
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1056,
+            0,
+            166,
+            13
+          ],
+          "length_px": 166,
+          "area_px": 974
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            0,
+            231,
+            82
+          ],
+          "length_px": 231,
+          "area_px": 3703
+        }
+      ],
+      "outputs": {
+        "annotated_frame": "outputs\\segmentation_backyard\\frames\\frame_00_04_annotated.png",
+        "hole_mask": "outputs\\segmentation_backyard\\masks\\frame_00_04_hole_mask.png"
+      }
+    },
+    {
+      "timestamp_seconds": 6.0,
+      "frame_index": 180,
+      "damage_count": 68,
+      "damage_area_px": 165248,
+      "detections": [
+        {
+          "type": "hole",
+          "bbox": [
+            352,
+            1074,
+            316,
+            6
+          ],
+          "length_px": 316,
+          "area_px": 372
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            1056,
+            65,
+            24
+          ],
+          "length_px": 65,
+          "area_px": 833
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1825,
+            1000,
+            36,
+            80
+          ],
+          "length_px": 80,
+          "area_px": 1212
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            924,
+            979,
+            167,
+            9
+          ],
+          "length_px": 167,
+          "area_px": 972
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            558,
+            978,
+            287,
+            11
+          ],
+          "length_px": 287,
+          "area_px": 1495
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1539,
+            977,
+            125,
+            11
+          ],
+          "length_px": 125,
+          "area_px": 765
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            299,
+            976,
+            250,
+            17
+          ],
+          "length_px": 250,
+          "area_px": 1898
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            878,
+            394,
+            132
+          ],
+          "length_px": 394,
+          "area_px": 9059
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            964,
+            876,
+            195,
+            8
+          ],
+          "length_px": 195,
+          "area_px": 1049
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            408,
+            873,
+            535,
+            17
+          ],
+          "length_px": 535,
+          "area_px": 4189
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1580,
+            868,
+            340,
+            125
+          ],
+          "length_px": 340,
+          "area_px": 5374
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1285,
+            867,
+            279,
+            213
+          ],
+          "length_px": 279,
+          "area_px": 16484
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1826,
+            783,
+            94,
+            104
+          ],
+          "length_px": 104,
+          "area_px": 2053
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            314,
+            783,
+            134,
+            55
+          ],
+          "length_px": 134,
+          "area_px": 1776
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            637,
+            779,
+            78,
+            8
+          ],
+          "length_px": 78,
+          "area_px": 447
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            564,
+            779,
+            63,
+            8
+          ],
+          "length_px": 63,
+          "area_px": 351
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            756,
+            778,
+            77,
+            9
+          ],
+          "length_px": 77,
+          "area_px": 402
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            776,
+            303,
+            20
+          ],
+          "length_px": 303,
+          "area_px": 2163
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1103,
+            773,
+            84,
+            6
+          ],
+          "length_px": 84,
+          "area_px": 383
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            840,
+            773,
+            257,
+            12
+          ],
+          "length_px": 257,
+          "area_px": 1323
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            56,
+            709,
+            14,
+            52
+          ],
+          "length_px": 52,
+          "area_px": 455
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            686,
+            382,
+            28
+          ],
+          "length_px": 382,
+          "area_px": 2984
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            395,
+            678,
+            520,
+            16
+          ],
+          "length_px": 520,
+          "area_px": 2839
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1049,
+            672,
+            138,
+            9
+          ],
+          "length_px": 138,
+          "area_px": 568
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1232,
+            671,
+            91,
+            8
+          ],
+          "length_px": 91,
+          "area_px": 375
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1873,
+            656,
+            47,
+            14
+          ],
+          "length_px": 47,
+          "area_px": 429
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1300,
+            637,
+            620,
+            233
+          ],
+          "length_px": 620,
+          "area_px": 38884
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            581,
+            784,
+            43
+          ],
+          "length_px": 784,
+          "area_px": 5753
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            799,
+            579,
+            186,
+            9
+          ],
+          "length_px": 186,
+          "area_px": 870
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1066,
+            571,
+            247,
+            10
+          ],
+          "length_px": 247,
+          "area_px": 1277
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            53,
+            524,
+            19,
+            65
+          ],
+          "length_px": 65,
+          "area_px": 669
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            501,
+            160,
+            17
+          ],
+          "length_px": 160,
+          "area_px": 1347
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            174,
+            496,
+            238,
+            14
+          ],
+          "length_px": 238,
+          "area_px": 1391
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            427,
+            488,
+            228,
+            13
+          ],
+          "length_px": 228,
+          "area_px": 1032
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            687,
+            481,
+            158,
+            13
+          ],
+          "length_px": 158,
+          "area_px": 703
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            962,
+            479,
+            60,
+            8
+          ],
+          "length_px": 60,
+          "area_px": 270
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1230,
+            470,
+            74,
+            11
+          ],
+          "length_px": 74,
+          "area_px": 518
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            413,
+            61,
+            12
+          ],
+          "length_px": 61,
+          "area_px": 426
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            325,
+            394,
+            239,
+            16
+          ],
+          "length_px": 239,
+          "area_px": 936
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            572,
+            389,
+            212,
+            14
+          ],
+          "length_px": 212,
+          "area_px": 1042
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            834,
+            384,
+            79,
+            9
+          ],
+          "length_px": 79,
+          "area_px": 354
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            920,
+            382,
+            107,
+            8
+          ],
+          "length_px": 107,
+          "area_px": 454
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1096,
+            374,
+            143,
+            12
+          ],
+          "length_px": 143,
+          "area_px": 652
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            316,
+            271,
+            135
+          ],
+          "length_px": 271,
+          "area_px": 4465
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            174,
+            306,
+            239,
+            21
+          ],
+          "length_px": 239,
+          "area_px": 2115
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            421,
+            299,
+            223,
+            18
+          ],
+          "length_px": 223,
+          "area_px": 1315
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            680,
+            287,
+            244,
+            17
+          ],
+          "length_px": 244,
+          "area_px": 1190
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1008,
+            279,
+            189,
+            12
+          ],
+          "length_px": 189,
+          "area_px": 1183
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1217,
+            270,
+            163,
+            13
+          ],
+          "length_px": 163,
+          "area_px": 796
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            310,
+            211,
+            222,
+            28
+          ],
+          "length_px": 222,
+          "area_px": 1394
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            540,
+            204,
+            167,
+            19
+          ],
+          "length_px": 167,
+          "area_px": 1082
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1366,
+            192,
+            554,
+            151
+          ],
+          "length_px": 554,
+          "area_px": 7860
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            799,
+            183,
+            245,
+            24
+          ],
+          "length_px": 245,
+          "area_px": 1344
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1176,
+            177,
+            144,
+            13
+          ],
+          "length_px": 144,
+          "area_px": 675
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1336,
+            166,
+            203,
+            15
+          ],
+          "length_px": 203,
+          "area_px": 1174
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1616,
+            142,
+            279,
+            28
+          ],
+          "length_px": 279,
+          "area_px": 1891
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            128,
+            379,
+            118
+          ],
+          "length_px": 379,
+          "area_px": 6062
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            391,
+            117,
+            239,
+            19
+          ],
+          "length_px": 239,
+          "area_px": 1717
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            641,
+            113,
+            89,
+            10
+          ],
+          "length_px": 89,
+          "area_px": 494
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            736,
+            107,
+            135,
+            11
+          ],
+          "length_px": 135,
+          "area_px": 675
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            876,
+            78,
+            281,
+            32
+          ],
+          "length_px": 281,
+          "area_px": 1638
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1169,
+            75,
+            265,
+            21
+          ],
+          "length_px": 265,
+          "area_px": 1607
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1450,
+            40,
+            470,
+            59
+          ],
+          "length_px": 470,
+          "area_px": 4307
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            313,
+            40,
+            118,
+            10
+          ],
+          "length_px": 118,
+          "area_px": 536
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            803,
+            10,
+            172,
+            15
+          ],
+          "length_px": 172,
+          "area_px": 733
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1152,
+            0,
+            46,
+            12
+          ],
+          "length_px": 46,
+          "area_px": 348
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1066,
+            0,
+            64,
+            7
+          ],
+          "length_px": 64,
+          "area_px": 308
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            0,
+            219,
+            82
+          ],
+          "length_px": 219,
+          "area_px": 3511
+        }
+      ],
+      "outputs": {
+        "annotated_frame": "outputs\\segmentation_backyard\\frames\\frame_00_06_annotated.png",
+        "hole_mask": "outputs\\segmentation_backyard\\masks\\frame_00_06_hole_mask.png"
+      }
+    },
+    {
+      "timestamp_seconds": 8.0,
+      "frame_index": 240,
+      "damage_count": 71,
+      "damage_area_px": 161152,
+      "detections": [
+        {
+          "type": "hole",
+          "bbox": [
+            401,
+            1074,
+            208,
+            6
+          ],
+          "length_px": 208,
+          "area_px": 260
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            1048,
+            69,
+            32
+          ],
+          "length_px": 69,
+          "area_px": 1125
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1826,
+            1002,
+            32,
+            78
+          ],
+          "length_px": 78,
+          "area_px": 1210
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            127,
+            997,
+            22,
+            47
+          ],
+          "length_px": 47,
+          "area_px": 324
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            886,
+            979,
+            206,
+            10
+          ],
+          "length_px": 206,
+          "area_px": 1115
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            558,
+            978,
+            259,
+            11
+          ],
+          "length_px": 259,
+          "area_px": 1381
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1469,
+            976,
+            196,
+            12
+          ],
+          "length_px": 196,
+          "area_px": 1022
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            298,
+            976,
+            250,
+            16
+          ],
+          "length_px": 250,
+          "area_px": 1979
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1673,
+            968,
+            247,
+            25
+          ],
+          "length_px": 247,
+          "area_px": 2000
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            964,
+            876,
+            194,
+            8
+          ],
+          "length_px": 194,
+          "area_px": 1074
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            875,
+            394,
+            161
+          ],
+          "length_px": 394,
+          "area_px": 9248
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            408,
+            873,
+            535,
+            18
+          ],
+          "length_px": 535,
+          "area_px": 4147
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1285,
+            867,
+            240,
+            213
+          ],
+          "length_px": 240,
+          "area_px": 15905
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1576,
+            784,
+            344,
+            178
+          ],
+          "length_px": 344,
+          "area_px": 5276
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            313,
+            782,
+            143,
+            54
+          ],
+          "length_px": 143,
+          "area_px": 1832
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            638,
+            779,
+            79,
+            22
+          ],
+          "length_px": 79,
+          "area_px": 560
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            564,
+            779,
+            63,
+            8
+          ],
+          "length_px": 63,
+          "area_px": 333
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            776,
+            303,
+            19
+          ],
+          "length_px": 303,
+          "area_px": 2121
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            725,
+            773,
+            461,
+            14
+          ],
+          "length_px": 461,
+          "area_px": 2290
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            56,
+            709,
+            13,
+            49
+          ],
+          "length_px": 49,
+          "area_px": 402
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            686,
+            382,
+            34
+          ],
+          "length_px": 382,
+          "area_px": 3085
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            393,
+            678,
+            521,
+            16
+          ],
+          "length_px": 521,
+          "area_px": 2878
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1046,
+            672,
+            91,
+            9
+          ],
+          "length_px": 91,
+          "area_px": 386
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1226,
+            671,
+            97,
+            8
+          ],
+          "length_px": 97,
+          "area_px": 364
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1874,
+            656,
+            46,
+            14
+          ],
+          "length_px": 46,
+          "area_px": 375
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1300,
+            647,
+            620,
+            223
+          ],
+          "length_px": 620,
+          "area_px": 35091
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            593,
+            276,
+            31
+          ],
+          "length_px": 276,
+          "area_px": 2564
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            282,
+            582,
+            502,
+            29
+          ],
+          "length_px": 502,
+          "area_px": 3205
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            798,
+            579,
+            187,
+            9
+          ],
+          "length_px": 187,
+          "area_px": 871
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1066,
+            571,
+            250,
+            10
+          ],
+          "length_px": 250,
+          "area_px": 1328
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            502,
+            160,
+            86
+          ],
+          "length_px": 160,
+          "area_px": 1986
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            173,
+            496,
+            240,
+            14
+          ],
+          "length_px": 240,
+          "area_px": 1438
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            428,
+            488,
+            225,
+            13
+          ],
+          "length_px": 225,
+          "area_px": 1017
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            689,
+            481,
+            149,
+            12
+          ],
+          "length_px": 149,
+          "area_px": 644
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            963,
+            480,
+            57,
+            7
+          ],
+          "length_px": 57,
+          "area_px": 273
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1230,
+            471,
+            74,
+            11
+          ],
+          "length_px": 74,
+          "area_px": 550
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            412,
+            61,
+            12
+          ],
+          "length_px": 61,
+          "area_px": 449
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            327,
+            401,
+            118,
+            10
+          ],
+          "length_px": 118,
+          "area_px": 393
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            454,
+            394,
+            110,
+            13
+          ],
+          "length_px": 110,
+          "area_px": 529
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            568,
+            386,
+            207,
+            17
+          ],
+          "length_px": 207,
+          "area_px": 955
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            833,
+            382,
+            194,
+            11
+          ],
+          "length_px": 194,
+          "area_px": 869
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1096,
+            374,
+            150,
+            12
+          ],
+          "length_px": 150,
+          "area_px": 669
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            316,
+            277,
+            168
+          ],
+          "length_px": 277,
+          "area_px": 4471
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            173,
+            306,
+            240,
+            21
+          ],
+          "length_px": 240,
+          "area_px": 2077
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            421,
+            300,
+            204,
+            17
+          ],
+          "length_px": 204,
+          "area_px": 1254
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            777,
+            289,
+            106,
+            11
+          ],
+          "length_px": 106,
+          "area_px": 528
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            679,
+            289,
+            88,
+            16
+          ],
+          "length_px": 88,
+          "area_px": 427
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            941,
+            284,
+            89,
+            9
+          ],
+          "length_px": 89,
+          "area_px": 374
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1039,
+            279,
+            159,
+            12
+          ],
+          "length_px": 159,
+          "area_px": 1033
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1217,
+            271,
+            167,
+            12
+          ],
+          "length_px": 167,
+          "area_px": 807
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            235,
+            41,
+            12
+          ],
+          "length_px": 41,
+          "area_px": 309
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            309,
+            212,
+            224,
+            17
+          ],
+          "length_px": 224,
+          "area_px": 1320
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            542,
+            205,
+            163,
+            16
+          ],
+          "length_px": 163,
+          "area_px": 1031
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            819,
+            195,
+            102,
+            11
+          ],
+          "length_px": 102,
+          "area_px": 518
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1375,
+            192,
+            545,
+            137
+          ],
+          "length_px": 545,
+          "area_px": 7600
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            962,
+            188,
+            84,
+            12
+          ],
+          "length_px": 84,
+          "area_px": 414
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            799,
+            183,
+            30,
+            19
+          ],
+          "length_px": 30,
+          "area_px": 344
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1179,
+            177,
+            142,
+            13
+          ],
+          "length_px": 142,
+          "area_px": 663
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1335,
+            167,
+            202,
+            14
+          ],
+          "length_px": 202,
+          "area_px": 1167
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1615,
+            144,
+            280,
+            27
+          ],
+          "length_px": 280,
+          "area_px": 1906
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            128,
+            379,
+            115
+          ],
+          "length_px": 379,
+          "area_px": 5743
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            391,
+            118,
+            239,
+            18
+          ],
+          "length_px": 239,
+          "area_px": 1705
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            640,
+            113,
+            90,
+            11
+          ],
+          "length_px": 90,
+          "area_px": 519
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            739,
+            107,
+            131,
+            11
+          ],
+          "length_px": 131,
+          "area_px": 693
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            887,
+            87,
+            267,
+            24
+          ],
+          "length_px": 267,
+          "area_px": 1437
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1170,
+            76,
+            263,
+            20
+          ],
+          "length_px": 263,
+          "area_px": 1603
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1451,
+            46,
+            469,
+            53
+          ],
+          "length_px": 469,
+          "area_px": 4321
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            313,
+            40,
+            119,
+            11
+          ],
+          "length_px": 119,
+          "area_px": 561
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            863,
+            11,
+            114,
+            11
+          ],
+          "length_px": 114,
+          "area_px": 479
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1066,
+            0,
+            135,
+            14
+          ],
+          "length_px": 135,
+          "area_px": 734
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            0,
+            218,
+            85
+          ],
+          "length_px": 218,
+          "area_px": 3591
+        }
+      ],
+      "outputs": {
+        "annotated_frame": "outputs\\segmentation_backyard\\frames\\frame_00_08_annotated.png",
+        "hole_mask": "outputs\\segmentation_backyard\\masks\\frame_00_08_hole_mask.png"
+      }
+    },
+    {
+      "timestamp_seconds": 10.0,
+      "frame_index": 300,
+      "damage_count": 67,
+      "damage_area_px": 164874,
+      "detections": [
+        {
+          "type": "hole",
+          "bbox": [
+            707,
+            1076,
+            267,
+            4
+          ],
+          "length_px": 267,
+          "area_px": 490
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            91,
+            1075,
+            179,
+            5
+          ],
+          "length_px": 179,
+          "area_px": 407
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            389,
+            1071,
+            307,
+            9
+          ],
+          "length_px": 307,
+          "area_px": 1024
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            1057,
+            89,
+            23
+          ],
+          "length_px": 89,
+          "area_px": 1194
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1852,
+            998,
+            36,
+            82
+          ],
+          "length_px": 82,
+          "area_px": 1210
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            909,
+            977,
+            202,
+            9
+          ],
+          "length_px": 202,
+          "area_px": 1089
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            580,
+            976,
+            286,
+            10
+          ],
+          "length_px": 286,
+          "area_px": 1436
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1563,
+            974,
+            127,
+            14
+          ],
+          "length_px": 127,
+          "area_px": 819
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            322,
+            974,
+            249,
+            15
+          ],
+          "length_px": 249,
+          "area_px": 1809
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1307,
+            901,
+            244,
+            179
+          ],
+          "length_px": 244,
+          "area_px": 15761
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            169,
+            875,
+            248,
+            14
+          ],
+          "length_px": 248,
+          "area_px": 1875
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            874,
+            265,
+            133
+          ],
+          "length_px": 265,
+          "area_px": 6029
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            986,
+            873,
+            193,
+            9
+          ],
+          "length_px": 193,
+          "area_px": 1004
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            431,
+            871,
+            534,
+            17
+          ],
+          "length_px": 534,
+          "area_px": 4013
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            785,
+            79,
+            8
+          ],
+          "length_px": 79,
+          "area_px": 426
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1852,
+            780,
+            68,
+            105
+          ],
+          "length_px": 105,
+          "area_px": 1671
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            337,
+            780,
+            132,
+            36
+          ],
+          "length_px": 132,
+          "area_px": 1574
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            659,
+            776,
+            78,
+            9
+          ],
+          "length_px": 78,
+          "area_px": 420
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            587,
+            776,
+            63,
+            8
+          ],
+          "length_px": 63,
+          "area_px": 323
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            95,
+            774,
+            231,
+            18
+          ],
+          "length_px": 231,
+          "area_px": 1588
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            745,
+            772,
+            362,
+            12
+          ],
+          "length_px": 362,
+          "area_px": 1791
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1126,
+            770,
+            81,
+            6
+          ],
+          "length_px": 81,
+          "area_px": 346
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            684,
+            405,
+            28
+          ],
+          "length_px": 405,
+          "area_px": 3191
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            417,
+            675,
+            518,
+            17
+          ],
+          "length_px": 518,
+          "area_px": 2830
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1246,
+            667,
+            100,
+            9
+          ],
+          "length_px": 100,
+          "area_px": 427
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1323,
+            634,
+            597,
+            358
+          ],
+          "length_px": 597,
+          "area_px": 46154
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            579,
+            805,
+            42
+          ],
+          "length_px": 805,
+          "area_px": 5746
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            819,
+            577,
+            188,
+            9
+          ],
+          "length_px": 188,
+          "area_px": 878
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1087,
+            568,
+            250,
+            10
+          ],
+          "length_px": 250,
+          "area_px": 1315
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            77,
+            523,
+            18,
+            64
+          ],
+          "length_px": 64,
+          "area_px": 586
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            501,
+            183,
+            16
+          ],
+          "length_px": 183,
+          "area_px": 1516
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            197,
+            494,
+            238,
+            15
+          ],
+          "length_px": 238,
+          "area_px": 1368
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            449,
+            486,
+            215,
+            13
+          ],
+          "length_px": 215,
+          "area_px": 941
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            708,
+            479,
+            149,
+            12
+          ],
+          "length_px": 149,
+          "area_px": 660
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            985,
+            477,
+            57,
+            8
+          ],
+          "length_px": 57,
+          "area_px": 275
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1173,
+            469,
+            61,
+            9
+          ],
+          "length_px": 61,
+          "area_px": 303
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1252,
+            468,
+            64,
+            11
+          ],
+          "length_px": 64,
+          "area_px": 486
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            412,
+            85,
+            15
+          ],
+          "length_px": 85,
+          "area_px": 581
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            349,
+            392,
+            238,
+            17
+          ],
+          "length_px": 238,
+          "area_px": 968
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            589,
+            384,
+            213,
+            18
+          ],
+          "length_px": 213,
+          "area_px": 1053
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            854,
+            379,
+            194,
+            12
+          ],
+          "length_px": 194,
+          "area_px": 823
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1116,
+            371,
+            149,
+            12
+          ],
+          "length_px": 149,
+          "area_px": 685
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            316,
+            321,
+            132
+          ],
+          "length_px": 321,
+          "area_px": 4413
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            196,
+            305,
+            239,
+            22
+          ],
+          "length_px": 239,
+          "area_px": 2006
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            444,
+            299,
+            207,
+            17
+          ],
+          "length_px": 207,
+          "area_px": 1284
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            702,
+            284,
+            245,
+            18
+          ],
+          "length_px": 245,
+          "area_px": 1194
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            965,
+            281,
+            87,
+            9
+          ],
+          "length_px": 87,
+          "area_px": 376
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1061,
+            275,
+            157,
+            13
+          ],
+          "length_px": 157,
+          "area_px": 1037
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1238,
+            266,
+            191,
+            13
+          ],
+          "length_px": 191,
+          "area_px": 925
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            235,
+            63,
+            12
+          ],
+          "length_px": 63,
+          "area_px": 421
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            331,
+            210,
+            223,
+            28
+          ],
+          "length_px": 223,
+          "area_px": 1361
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            563,
+            203,
+            165,
+            17
+          ],
+          "length_px": 165,
+          "area_px": 1050
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1390,
+            187,
+            530,
+            150
+          ],
+          "length_px": 530,
+          "area_px": 8183
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            983,
+            185,
+            83,
+            12
+          ],
+          "length_px": 83,
+          "area_px": 334
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            820,
+            181,
+            110,
+            23
+          ],
+          "length_px": 110,
+          "area_px": 803
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1192,
+            173,
+            150,
+            13
+          ],
+          "length_px": 150,
+          "area_px": 725
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1358,
+            162,
+            196,
+            14
+          ],
+          "length_px": 196,
+          "area_px": 1104
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1639,
+            137,
+            281,
+            29
+          ],
+          "length_px": 281,
+          "area_px": 1907
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            127,
+            399,
+            115
+          ],
+          "length_px": 399,
+          "area_px": 5739
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            413,
+            115,
+            238,
+            20
+          ],
+          "length_px": 238,
+          "area_px": 1677
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            662,
+            104,
+            229,
+            18
+          ],
+          "length_px": 229,
+          "area_px": 1290
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            914,
+            84,
+            262,
+            24
+          ],
+          "length_px": 262,
+          "area_px": 1377
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1188,
+            70,
+            271,
+            23
+          ],
+          "length_px": 271,
+          "area_px": 1668
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            351,
+            39,
+            111,
+            11
+          ],
+          "length_px": 111,
+          "area_px": 567
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1473,
+            33,
+            447,
+            54
+          ],
+          "length_px": 447,
+          "area_px": 3931
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            879,
+            7,
+            117,
+            19
+          ],
+          "length_px": 117,
+          "area_px": 537
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            0,
+            247,
+            90
+          ],
+          "length_px": 247,
+          "area_px": 3880
+        }
+      ],
+      "outputs": {
+        "annotated_frame": "outputs\\segmentation_backyard\\frames\\frame_00_10_annotated.png",
+        "hole_mask": "outputs\\segmentation_backyard\\masks\\frame_00_10_hole_mask.png"
+      }
+    },
+    {
+      "timestamp_seconds": 12.0,
+      "frame_index": 360,
+      "damage_count": 55,
+      "damage_area_px": 141605,
+      "detections": [
+        {
+          "type": "hole",
+          "bbox": [
+            1819,
+            1067,
+            101,
+            13
+          ],
+          "length_px": 101,
+          "area_px": 943
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            405,
+            1067,
+            75,
+            5
+          ],
+          "length_px": 75,
+          "area_px": 269
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            877,
+            1043,
+            713,
+            37
+          ],
+          "length_px": 713,
+          "area_px": 25632
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            562,
+            988,
+            61,
+            31
+          ],
+          "length_px": 61,
+          "area_px": 395
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1700,
+            981,
+            220,
+            19
+          ],
+          "length_px": 220,
+          "area_px": 2217
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            457,
+            912,
+            83,
+            8
+          ],
+          "length_px": 83,
+          "area_px": 483
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            311,
+            910,
+            97,
+            12
+          ],
+          "length_px": 97,
+          "area_px": 681
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            537,
+            833,
+            135,
+            15
+          ],
+          "length_px": 135,
+          "area_px": 678
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1700,
+            808,
+            220,
+            103
+          ],
+          "length_px": 220,
+          "area_px": 2748
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            451,
+            757,
+            75,
+            10
+          ],
+          "length_px": 75,
+          "area_px": 350
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1789,
+            727,
+            131,
+            51
+          ],
+          "length_px": 131,
+          "area_px": 1587
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            327,
+            689,
+            95,
+            8
+          ],
+          "length_px": 95,
+          "area_px": 396
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            577,
+            684,
+            123,
+            29
+          ],
+          "length_px": 123,
+          "area_px": 638
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            680,
+            505,
+            400
+          ],
+          "length_px": 505,
+          "area_px": 26009
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1882,
+            648,
+            38,
+            18
+          ],
+          "length_px": 38,
+          "area_px": 277
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            497,
+            610,
+            32,
+            18
+          ],
+          "length_px": 32,
+          "area_px": 265
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            237,
+            608,
+            245,
+            18
+          ],
+          "length_px": 245,
+          "area_px": 1442
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            608,
+            598,
+            189,
+            14
+          ],
+          "length_px": 189,
+          "area_px": 1117
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1806,
+            581,
+            53,
+            79
+          ],
+          "length_px": 79,
+          "area_px": 1049
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1441,
+            570,
+            350,
+            12
+          ],
+          "length_px": 350,
+          "area_px": 2108
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            536,
+            441,
+            123
+          ],
+          "length_px": 441,
+          "area_px": 9800
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1210,
+            511,
+            16,
+            71
+          ],
+          "length_px": 71,
+          "area_px": 913
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1666,
+            488,
+            124,
+            9
+          ],
+          "length_px": 124,
+          "area_px": 541
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            262,
+            464,
+            89,
+            9
+          ],
+          "length_px": 89,
+          "area_px": 424
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            414,
+            454,
+            180,
+            12
+          ],
+          "length_px": 180,
+          "area_px": 1011
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            920,
+            437,
+            74,
+            11
+          ],
+          "length_px": 74,
+          "area_px": 399
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1789,
+            429,
+            128,
+            133
+          ],
+          "length_px": 133,
+          "area_px": 2029
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1564,
+            410,
+            59,
+            10
+          ],
+          "length_px": 59,
+          "area_px": 309
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1762,
+            396,
+            158,
+            17
+          ],
+          "length_px": 158,
+          "area_px": 929
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            590,
+            373,
+            90,
+            8
+          ],
+          "length_px": 90,
+          "area_px": 393
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            372,
+            337,
+            130
+          ],
+          "length_px": 337,
+          "area_px": 7786
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            793,
+            366,
+            62,
+            20
+          ],
+          "length_px": 62,
+          "area_px": 366
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1611,
+            328,
+            143,
+            10
+          ],
+          "length_px": 143,
+          "area_px": 609
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            146,
+            320,
+            92,
+            38
+          ],
+          "length_px": 92,
+          "area_px": 698
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1785,
+            318,
+            135,
+            34
+          ],
+          "length_px": 135,
+          "area_px": 1474
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1226,
+            265,
+            141,
+            12
+          ],
+          "length_px": 141,
+          "area_px": 681
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1503,
+            255,
+            64,
+            9
+          ],
+          "length_px": 64,
+          "area_px": 339
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            276,
+            238,
+            66,
+            12
+          ],
+          "length_px": 66,
+          "area_px": 458
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1655,
+            236,
+            265,
+            20
+          ],
+          "length_px": 265,
+          "area_px": 2093
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            356,
+            220,
+            367,
+            24
+          ],
+          "length_px": 367,
+          "area_px": 2352
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            736,
+            214,
+            114,
+            11
+          ],
+          "length_px": 114,
+          "area_px": 481
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            939,
+            199,
+            184,
+            15
+          ],
+          "length_px": 184,
+          "area_px": 897
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1137,
+            194,
+            97,
+            11
+          ],
+          "length_px": 97,
+          "area_px": 553
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1479,
+            175,
+            68,
+            9
+          ],
+          "length_px": 68,
+          "area_px": 289
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1560,
+            160,
+            212,
+            20
+          ],
+          "length_px": 212,
+          "area_px": 1354
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1785,
+            154,
+            135,
+            39
+          ],
+          "length_px": 135,
+          "area_px": 1029
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            177,
+            82,
+            356,
+            35
+          ],
+          "length_px": 356,
+          "area_px": 3475
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            546,
+            71,
+            178,
+            18
+          ],
+          "length_px": 178,
+          "area_px": 947
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1743,
+            68,
+            177,
+            25
+          ],
+          "length_px": 177,
+          "area_px": 1297
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            735,
+            56,
+            188,
+            20
+          ],
+          "length_px": 188,
+          "area_px": 1269
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            149,
+            34,
+            31,
+            26
+          ],
+          "length_px": 31,
+          "area_px": 433
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1138,
+            30,
+            193,
+            22
+          ],
+          "length_px": 193,
+          "area_px": 1170
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1371,
+            24,
+            86,
+            12
+          ],
+          "length_px": 86,
+          "area_px": 457
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1509,
+            0,
+            399,
+            43
+          ],
+          "length_px": 399,
+          "area_px": 3708
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            0,
+            170,
+            365
+          ],
+          "length_px": 365,
+          "area_px": 21358
+        }
+      ],
+      "outputs": {
+        "annotated_frame": "outputs\\segmentation_backyard\\frames\\frame_00_12_annotated.png",
+        "hole_mask": "outputs\\segmentation_backyard\\masks\\frame_00_12_hole_mask.png"
+      }
+    },
+    {
+      "timestamp_seconds": 14.0,
+      "frame_index": 420,
+      "damage_count": 49,
+      "damage_area_px": 522314,
+      "detections": [
+        {
+          "type": "hole",
+          "bbox": [
+            1351,
+            1061,
+            70,
+            19
+          ],
+          "length_px": 70,
+          "area_px": 394
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            689,
+            1051,
+            290,
+            29
+          ],
+          "length_px": 290,
+          "area_px": 1506
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1057,
+            1033,
+            67,
+            12
+          ],
+          "length_px": 67,
+          "area_px": 429
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1698,
+            1031,
+            86,
+            35
+          ],
+          "length_px": 86,
+          "area_px": 784
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            109,
+            1030,
+            49,
+            15
+          ],
+          "length_px": 49,
+          "area_px": 373
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1539,
+            1021,
+            103,
+            21
+          ],
+          "length_px": 103,
+          "area_px": 491
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            1021,
+            94,
+            18
+          ],
+          "length_px": 94,
+          "area_px": 938
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            116,
+            978,
+            63,
+            12
+          ],
+          "length_px": 63,
+          "area_px": 382
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            11,
+            971,
+            73,
+            11
+          ],
+          "length_px": 73,
+          "area_px": 451
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            916,
+            126,
+            20
+          ],
+          "length_px": 126,
+          "area_px": 897
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1643,
+            913,
+            277,
+            167
+          ],
+          "length_px": 277,
+          "area_px": 7710
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1284,
+            892,
+            322,
+            53
+          ],
+          "length_px": 322,
+          "area_px": 1848
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1151,
+            883,
+            82,
+            10
+          ],
+          "length_px": 82,
+          "area_px": 278
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            157,
+            873,
+            82,
+            11
+          ],
+          "length_px": 82,
+          "area_px": 304
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            860,
+            98,
+            12
+          ],
+          "length_px": 98,
+          "area_px": 501
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1684,
+            854,
+            236,
+            24
+          ],
+          "length_px": 236,
+          "area_px": 2290
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1490,
+            841,
+            82,
+            9
+          ],
+          "length_px": 82,
+          "area_px": 410
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            809,
+            172,
+            15
+          ],
+          "length_px": 172,
+          "area_px": 818
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            769,
+            797,
+            85,
+            11
+          ],
+          "length_px": 85,
+          "area_px": 379
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1829,
+            787,
+            88,
+            19
+          ],
+          "length_px": 88,
+          "area_px": 612
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1567,
+            780,
+            245,
+            19
+          ],
+          "length_px": 245,
+          "area_px": 1134
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1209,
+            766,
+            87,
+            9
+          ],
+          "length_px": 87,
+          "area_px": 324
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            46,
+            760,
+            145,
+            11
+          ],
+          "length_px": 145,
+          "area_px": 521
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1075,
+            759,
+            127,
+            11
+          ],
+          "length_px": 127,
+          "area_px": 499
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1825,
+            682,
+            95,
+            73
+          ],
+          "length_px": 95,
+          "area_px": 1094
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1411,
+            649,
+            66,
+            14
+          ],
+          "length_px": 66,
+          "area_px": 313
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            558,
+            133,
+            10
+          ],
+          "length_px": 133,
+          "area_px": 622
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            508,
+            142,
+            7
+          ],
+          "length_px": 142,
+          "area_px": 545
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            754,
+            489,
+            118,
+            6
+          ],
+          "length_px": 118,
+          "area_px": 407
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            990,
+            458,
+            930,
+            129
+          ],
+          "length_px": 930,
+          "area_px": 33404
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            46,
+            456,
+            81,
+            8
+          ],
+          "length_px": 81,
+          "area_px": 311
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1033,
+            423,
+            25,
+            46
+          ],
+          "length_px": 46,
+          "area_px": 306
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            406,
+            87,
+            12
+          ],
+          "length_px": 87,
+          "area_px": 480
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            632,
+            387,
+            120,
+            16
+          ],
+          "length_px": 120,
+          "area_px": 543
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            830,
+            355,
+            50,
+            37
+          ],
+          "length_px": 50,
+          "area_px": 340
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            15,
+            351,
+            72,
+            12
+          ],
+          "length_px": 72,
+          "area_px": 464
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            630,
+            293,
+            78,
+            17
+          ],
+          "length_px": 78,
+          "area_px": 599
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1496,
+            292,
+            46,
+            124
+          ],
+          "length_px": 124,
+          "area_px": 1178
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            769,
+            258,
+            127,
+            34
+          ],
+          "length_px": 127,
+          "area_px": 533
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            735,
+            230,
+            146,
+            23
+          ],
+          "length_px": 146,
+          "area_px": 728
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            208,
+            50,
+            20
+          ],
+          "length_px": 50,
+          "area_px": 565
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            149,
+            99,
+            18
+          ],
+          "length_px": 99,
+          "area_px": 855
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1026,
+            103,
+            24,
+            126
+          ],
+          "length_px": 126,
+          "area_px": 742
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            95,
+            127,
+            25
+          ],
+          "length_px": 127,
+          "area_px": 942
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            33,
+            195,
+            27
+          ],
+          "length_px": 195,
+          "area_px": 1467
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1542,
+            0,
+            369,
+            415
+          ],
+          "length_px": 415,
+          "area_px": 116395
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            1092,
+            0,
+            367,
+            423
+          ],
+          "length_px": 423,
+          "area_px": 137306
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            359,
+            0,
+            687,
+            1080
+          ],
+          "length_px": 1080,
+          "area_px": 196635
+        },
+        {
+          "type": "hole",
+          "bbox": [
+            0,
+            0,
+            82,
+            39
+          ],
+          "length_px": 82,
+          "area_px": 1267
+        }
+      ],
+      "outputs": {
+        "annotated_frame": "outputs\\segmentation_backyard\\frames\\frame_00_14_annotated.png",
+        "hole_mask": "outputs\\segmentation_backyard\\masks\\frame_00_14_hole_mask.png"
+      }
+    }
+  ]
+}
