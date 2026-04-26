@@ -40,9 +40,21 @@ def _camera_candidates(camera_index: int):
     for backend in backends:
         yield camera_index, backend
 
+def is_frame_meaningful(frame) -> bool:
+    """
+    Check if the frame has enough variance/texture to be a real scene,
+    preventing static/black placeholder frames from wasting GCP tokens.
+    """
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    std_dev = cv2.meanStdDev(gray)[1][0][0]
+    is_meaningful = std_dev > 2.0
+    if not is_meaningful:
+        print(f"Frame ignored. StdDev is too low: {std_dev:.2f}")
+    return is_meaningful
+
 def analyze_with_gcp(frame) -> list[dict]:
     try:
-        from camerafeed import detect_scene
+        from LiveFeedPipeline import detect_scene
         from google.cloud import vision
     except Exception:
         return []
@@ -139,14 +151,19 @@ def _stream_frames(is_demo: bool, camera_index: int | None = None):
                     new_boxes = pending_analysis.result()
                     with _analysis_lock:
                         _latest_boxes = new_boxes
-                except Exception:
-                    pass
+                except Exception as e:
+                    print(f"GCP Analysis failed: {e}")
                 finally:
                     pending_analysis = None
 
-            if frame_count % FRAME_ANALYSIS_INTERVAL == 0 and pending_analysis is None:
-                frame_for_analysis = frame.copy()
-                pending_analysis = _analysis_executor.submit(analyze_with_gcp, frame_for_analysis)
+            if not is_demo and frame_count % FRAME_ANALYSIS_INTERVAL == 0 and pending_analysis is None:
+                if is_frame_meaningful(frame):
+                    frame_for_analysis = frame.copy()
+                    pending_analysis = _analysis_executor.submit(analyze_with_gcp, frame_for_analysis)
+                else:
+                    # Frame is dead/placeholder, clear old boxes and save tokens
+                    with _analysis_lock:
+                        _latest_boxes = []
 
             with _analysis_lock:
                 boxes_snapshot = list(_latest_boxes)
